@@ -50,6 +50,8 @@ The main script [`main.py`](main.py) can be runned from the command line providi
 python main.py --path my_lidar.las --resolution 0.4 --window_size 60 --patch_overlap 0.25 --save True --save_path labeled_lidar.las
 ```
 
+⚠️Just replace *my_lidar.las* with your actual .las file :) 
+
 The output `.las` file will be equal as the input, except for an extra dimension called `tree_labels` storing the tree labels (0/1 for 'tree'/'non tree') for each point.
 
 The command line parameters mean:
