@@ -1,0 +1,4 @@
+deepforest
+segment-geospatial
+laspy
+albumentations==2.0.5
