@@ -12,6 +12,14 @@ In this project SAM is loaded using the [segment-geospatial package](https://git
 
 Using a model for 2D segmentation to classify 3D points, such as LiDAR data, is possible following the [segment-lidar](https://github.com/Yarroudh/segment-lidar) pipeline. First the LiDAR points are projected in a 2D image, then the model segments it. After obtaining the segmentation masks the third dimension is restored adding a new variable to each point storing the class label.
 
+# Table of Contents
+1. [Installation](#Installation)
+2. [Requirements](#Requirements)
+3. [Usage](#Usage)
+4. [Repository structure](#Repository-structure)
+5. [Output example](#Output-example)
+
+
 # Installation
 
 To start using the repository, first clone it:
@@ -66,7 +74,7 @@ python simulation.py --help
 # Repository structure
 The repository contains the following folders and files:
 
-- ['main.py'](main.py) is the main script for classifying tree points in a given LiDAR point data cloud
+- [`main.py`](main.py) is the main script for classifying tree points in a given LiDAR point data cloud
 - [`forest_lidar_class.py`](forest_lidar_class.py) is the script containing the class ForestLidar
 - [`requirements.txt`](requirements.txt) file contains the list of dependencies required for the project
 - [`images`](images) folder contains two example images
