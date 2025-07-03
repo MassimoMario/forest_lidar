@@ -1,4 +1,4 @@
-# forest-lidar
+# forest-lidar 🌳🌳🛩️
 
 Python implementation of a pipeline to classify vegetation (tree) points in Airborne LiDAR data using zero-shot learning abilities of DeepForest and SAM model.
 
@@ -17,7 +17,6 @@ Using a model for 2D segmentation to classify 3D points, such as LiDAR data, is 
 2. [Requirements](#Requirements)
 3. [Usage](#Usage)
 4. [Repository structure](#Repository-structure)
-5. [Output example](#Output-example)
 
 
 # Installation
@@ -77,7 +76,3 @@ The repository contains the following folders and files:
 - [`main.py`](main.py) is the main script for classifying tree points in a given LiDAR point data cloud
 - [`forest_lidar_class.py`](forest_lidar_class.py) is the script containing the class ForestLidar
 - [`requirements.txt`](requirements.txt) file contains the list of dependencies required for the project
-- [`images`](images) folder contains two example images
-
-
-# Output example
