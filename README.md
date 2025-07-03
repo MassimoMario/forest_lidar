@@ -32,10 +32,10 @@ This project requires **Python &ge; 3.8** and the following libraries:
 - `numpy`
 - `matplotlib`
 - `tqdm`
-- deepforest
-- segment-geospatial
-- laspy
-- albumentations==2.0.5
+- `deepforest`
+- `segment-geospatial`
+- `laspy`
+- `albumentations`==2.0.5
 
 To install them you can run on the Bash:
 
